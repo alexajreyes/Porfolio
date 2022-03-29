@@ -21,6 +21,7 @@ export const ContainerTypography = styled.div`
   flex-direction: column;
   & a {
     margin: 8px 0;
+    text-decoration: none;
   }
 `
 export const ContainerNav = styled.div`

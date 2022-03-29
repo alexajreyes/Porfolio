@@ -8,7 +8,7 @@ import {
   ContainerIconRedSocial,
 } from './style'
 import address from 'assets/icons/Managua, Nicaragua.svg'
-import cellphone from 'assets/icons/( + 505 ) 5744-1952.svg'
+import Cellphone from 'assets/icons/cellphone.svg'
 import emailPersonal from 'assets/icons/alex.reyesf02@gmail.com.svg'
 import GithubIcon from 'assets/icons/Github.svg'
 import TwitterIcon from 'assets/icons/Vector (1).svg'
@@ -26,7 +26,7 @@ const Footer = () => {
           <img src={address} alt="address" />
         </a>
         <a href="tel:+50557441952">
-          <img src={cellphone} alt="cellphone" />
+          <Typography variant="body" mb="16px" value="+(505) 5744-1952" />
         </a>
         <Typography
           variant="body2"

@@ -19,8 +19,11 @@ export const ContainerImg = styled.div`
   }
 `
 export const ContainerInfo = styled.div`
-  max-width: 500px;
+  max-width: 50%;
   margin-top: 128px;
+  @media (max-width: 1030px) {
+    max-width: 100%;
+  }
 `
 
 export const ContainerButton = styled.div`

@@ -30,12 +30,12 @@ const Hero = () => {
 
         <ContainerButton>
           <a href="#contact">
-            <Button mr="8px" width="200px" variant="filled">
+            <Button mr="8px" variant="filled">
               Contactame
             </Button>
           </a>
           <a href={PDF} download="CV Alex Reyes" target="_blank">
-            <Button ml="8px" width="200px" variant="outline">
+            <Button ml="8px" variant="outline">
               Descargar CV
             </Button>
           </a>

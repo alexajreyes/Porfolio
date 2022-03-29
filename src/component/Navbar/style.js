@@ -35,7 +35,12 @@ export const Wrapper = styled.div`
   width: 95%;
   padding: 0 15%;
   display: flex;
-  justify-content: space-between; ;
+  justify-content: space-between;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    padding: 0 4%;
+  }
 `
 
 export const Overlay = styled.div`
