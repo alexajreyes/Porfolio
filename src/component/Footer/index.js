@@ -8,7 +8,6 @@ import {
   ContainerIconRedSocial,
 } from './style'
 import address from 'assets/icons/Managua, Nicaragua.svg'
-import Cellphone from 'assets/icons/cellphone.svg'
 import emailPersonal from 'assets/icons/alex.reyesf02@gmail.com.svg'
 import GithubIcon from 'assets/icons/Github.svg'
 import TwitterIcon from 'assets/icons/Vector (1).svg'
