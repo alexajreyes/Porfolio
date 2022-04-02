@@ -43,6 +43,9 @@ export const FieldTextAreaInput = styled.textarea`
     background-color: ${({ theme }) => theme.card};
     border-color: ${({ theme }) => theme.accent};
   }
+  &:hover {
+    border-color: ${({ theme }) => theme.accent};
+  }
 `
 
 export const FieldTextErrorMessage = styled.p`

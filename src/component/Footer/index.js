@@ -39,7 +39,7 @@ const Footer = () => {
         <a href="#aboutMe"> sobre mi |</a>
       </ContainerNav>
       <ContainerRedSocial>
-        <a href="href='mailto:alex.reyesf02@gmail.com'">
+        <a href="mailto:alex.reyesf02@gmail.com">
           <img src={emailPersonal} alt="email personal" />
         </a>
         <ContainerIconRedSocial>

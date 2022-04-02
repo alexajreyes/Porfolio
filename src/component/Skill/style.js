@@ -35,6 +35,7 @@ export const CardIcon = styled.div`
     margin-right: 32px;
   }
   & img {
-    width: 70%;
+    width: 48px;
+    height: 48px;
   }
 `

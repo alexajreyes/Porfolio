@@ -30,7 +30,6 @@ const Primitive = css`
   margin-left: ${({ ml }) => (ml ? ml : 0)};
   margin-right: ${({ mr }) => (mr ? mr : 0)};
   border-radius: 8px;
-
   //text-transform: uppercase;
   display: flex;
   justify-content: center;
@@ -49,6 +48,7 @@ const Primitive = css`
   }
 
   &:hover::before {
+    box-shadow: 0px 15px 15px -10px #ff9f8e;
     content: '';
     position: absolute;
     left: 0;

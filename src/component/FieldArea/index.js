@@ -45,8 +45,8 @@ function FieldTextArea({
           ref={inputRef}
           id={idFieldText}
           type={type}
-          cols={cols ? cols : '30'}
-          rows={rows ? rows : '10'}
+          // cols={cols ? cols : '30'}
+          // rows={rows ? rows : '10'}
           {...rest}
         />
         {errorMessage && (

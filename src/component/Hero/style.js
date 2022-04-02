@@ -2,28 +2,24 @@ import styled from 'styled-components'
 
 export const Container = styled.section`
   width: 100%;
+  gap: 0 16px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   padding: 0 15%;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
   margin-bottom: 40px;
-  align-items: center;
-  flex-wrap: wrap;
-  @media (max-width: 1030px) {
-    justify-content: center;
-  }
 `
 export const ContainerImg = styled.div`
-  max-width: 480px;
+  display: flex;
+  justify-content: center;
   & img {
     width: 100%;
   }
 `
 export const ContainerInfo = styled.div`
-  max-width: 50%;
   margin-top: 128px;
-  @media (max-width: 1030px) {
-    max-width: 100%;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `
 
 export const ContainerButton = styled.div`

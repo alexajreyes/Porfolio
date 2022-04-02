@@ -27,7 +27,7 @@ const Skills = () => {
   return (
     <Container theme={theme} id="skill">
       <Typography
-        mb="72px"
+        mb="16px"
         value="Mi experiencia incluye pero no se limita."
         variant="title4"
       />

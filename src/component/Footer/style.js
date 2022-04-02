@@ -4,19 +4,14 @@ export const Wrapper = styled.div`
   background-color: ${({ theme }) => theme.card};
   width: 100%;
   padding: 0 15%;
-  display: flex;
-  justify-content: space-between;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: grid;
   align-items: center;
-  flex-wrap: wrap;
-
-  @media (max-width: 768px) {
-    justify-content: center;
-  }
 `
 export const ContainerTypography = styled.div`
   justify-content: center;
   margin: 32px 0;
-  max-width: 280px;
+
   display: flex;
   flex-direction: column;
   & a {
@@ -27,7 +22,6 @@ export const ContainerTypography = styled.div`
 export const ContainerNav = styled.div`
   justify-content: center;
   margin: 32px 0;
-  max-width: 280px;
   & a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -67,7 +61,7 @@ export const ContainerNav = styled.div`
 export const ContainerRedSocial = styled.div`
   justify-content: center;
   margin: 32px 0;
-  max-width: 280px;
+
   display: flex;
   flex-direction: column;
   & a {
@@ -78,6 +72,11 @@ export const ContainerRedSocial = styled.div`
 export const ContainerIconRedSocial = styled.div`
   & a {
     margin: 0 16px;
+    & img {
+      &:hover {
+        transform: scale(0.95);
+      }
+    }
 
     :first-child {
       margin: 0;

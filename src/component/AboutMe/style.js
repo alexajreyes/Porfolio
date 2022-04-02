@@ -3,24 +3,19 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
   width: 100%;
   padding: 0 15%;
-  display: flex;
-  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: grid;
   align-items: center;
-  justify-content: space-between;
-  @media (max-width: 1370px) {
-    padding: 0 8%;
-    justify-content: center;
-  }
+  gap: 8px;
 `
 export const ContainerImg = styled.div`
   margin: 32px 0;
-  max-width: 400px;
+
   & img {
-    width: 100%;
+    max-width: 100%;
   }
 `
 export const ContainerDescription = styled.div`
-  max-width: 50%;
   margin-top: 32px;
   @media (max-width: 400px) {
     & h2,

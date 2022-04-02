@@ -5,7 +5,7 @@ const Primitive = css`
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 300;
-  text-align: ${({ align }) => (align ? align : 'center')};
+  //text-align: ${({ align }) => (align ? align : 'center')};
   margin-top: ${({ mt }) => (mt ? mt : 0)};
   margin-bottom: ${({ mb }) => (mb ? mb : 0)};
   margin-left: ${({ ml }) => (ml ? ml : 0)};

@@ -1,7 +1,7 @@
 import FieldText from 'component/FieldText'
 import FieldTextArea from 'component/FieldArea'
 import React from 'react'
-import { Wrapper, ContainerForm, ConatinerImg } from './style'
+import { Wrapper, ContainerForm, ConatinerImg, ContainerButton } from './style'
 import emailjs from '@emailjs/browser'
 import Button from 'component/Button'
 import ImageContact from 'assets/icons/People collaborating (1) 1.svg'
@@ -63,9 +63,11 @@ const Contact = () => {
 
           <FieldText placeholder="Correo" name="user_email" />
           <FieldTextArea placeholder="Mensaje" name="user_message" />
-          <Button mt="16px" width="328px" variant="filled">
-            Enviar
-          </Button>
+          <ContainerButton>
+            <Button mt="16px" variant="filled">
+              Enviar
+            </Button>
+          </ContainerButton>
           <ToastContainer
             position="top-right"
             autoClose={5000}

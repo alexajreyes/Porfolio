@@ -3,12 +3,9 @@ import styled from 'styled-components'
 export const Wrapper = styled.div`
   width: 100%;
   padding: 0 15%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  @media (max-width: 1030px) {
-    justify-content: center;
-  }
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  display: grid;
 `
 export const Container = styled.div`
   margin: 16px 4px;
@@ -30,11 +27,16 @@ export const ContainerIcons = styled.div`
   align-items: center;
   display: flex;
   cursor: pointer;
-
+  gap: 16px;
   & img {
     margin-right: 16px;
+    width: 100%;
+
     &:active {
       transform: scale(0.95);
+    }
+    &:hover {
+      transform: scale(1.05);
     }
   }
 `
