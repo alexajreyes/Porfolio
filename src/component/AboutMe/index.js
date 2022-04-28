@@ -14,7 +14,7 @@ const AboutMe = () => {
         <Typography
           mb="32px"
           variant="Body"
-          value="Trabajo full time en React JS, JavaScript, CSS me gusta aprender para ayudar."
+          value="Trabajo full time en React JS, JavaScript, CSS me gusta ayudar con lo que me apasiona el desarrollo web."
         />
         <Typography
           mb="8px"

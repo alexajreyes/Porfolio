@@ -80,20 +80,21 @@ export const Title4 = styled.h4`
 export const Body = styled.p`
   ${Primitive}
   font-weight: normal;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 25px;
   letter-spacing: -0.234375px;
   color: ${({ color, theme }) => (color ? color : theme.secondaryText)};
   text-align: ${({ align }) => (align ? align : 'left')};
   @media (min-width: 768px) {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 28px;
     letter-spacing: -0.28125px;
   }
 `
 export const Body2 = styled.p`
   ${Primitive}
-  font-weight: normal;
+  font-size: 14px;
+  font-weight: 500;
   line-height: 25px;
   letter-spacing: -0.234375px;
   color: ${({ color, theme }) => (color ? color : theme.accent)};

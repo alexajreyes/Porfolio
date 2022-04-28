@@ -24,7 +24,7 @@ const Hero = () => {
         />
         <Typography
           mb="72px"
-          value="Hola soy Alex reyes responsable y eficiente en busca de un puesto como Desarrollador Front-End.  Busco desarrollar mi carrera, ayudando."
+          value="Hola soy Alex reyes responsable, eficiente y en busca de nuevos retos. Mi objetivo es ayudar a conseguir una experiencia de usuario atractiva y dinámica, a través del desarrollo de los diferentes componentes externos del sitio o aplicación web."
           variant="Body"
         />
 

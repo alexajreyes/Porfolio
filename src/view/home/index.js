@@ -1,7 +1,7 @@
 import Navbar from 'component/Navbar'
 import { memo } from 'react'
 import { Container } from './style'
-import { Wrapper } from './../../style/globalStyle'
+import Experiencia from 'component/Experiencia'
 import Hero from 'component/Hero'
 import Project from 'component/Projects'
 import Skill from 'component/Skill'
@@ -22,6 +22,7 @@ function Home() {
         <Comment />
         <Project />
         <AboutMe />
+        <Experiencia />
         <Contact />
         <Footer />
       </Container>
